@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "icomoon";
+    src: url("./icons.woff") format("woff");
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    font-family: "icomoon" !important;
+}
+
+.icon-film:before {
+  content: "\e913";
+}
+.icon-books:before {
+  content: "\e920";
+}
+.icon-text:before {
+  content: "\e926";
+}
+.icon-outside:before {
+  content: "\ea7e";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-steam:before {
+  content: "\eaad";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
+.icon-lastfm:before {
+  content: "\eacc";
+}
+.icon-stackoverflow:before {
+  content: "\ead0";
+}

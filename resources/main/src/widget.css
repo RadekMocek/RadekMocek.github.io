@@ -1,0 +1,57 @@
+:root {
+    --color-widget-background: #2b323d;
+    --color-widget-font: #dddddd;
+    --color-widget-button: #588a1b;
+    --color-widget-button-hover: #6aa621;
+    --color-widget-button-font: #f2ffdf;
+    --color-widget-button-font-hover: #ffffff;
+}
+
+.widget {
+    font-size: 0.8rem;
+    line-height: 1.35;
+    color: var(--color-widget-font);
+
+    background-color: var(--color-widget-background);
+    max-width: 615.6px;
+    padding: 1.2em;
+}
+
+.widget-flex {
+    display: flex;
+}
+
+.widget img {
+    margin: 0.3em 1em 1em 0;
+}
+
+.widget p {
+    margin-top: 0;
+}
+
+.widget a {
+    color: var(--color-widget-button-font);
+    background-color: var(--color-widget-button);
+    float: right;
+    padding: 0.62em 0.9em;
+    font-size: 0.86rem;
+    cursor: pointer;
+}
+
+.widget a:hover {
+    color: var(--color-widget-button-font-hover);
+    background-color: var(--color-widget-button-hover);
+}
+
+.widget #filthware-pseudo-logo {
+    font-family: Consolas, monaco, monospace;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .widget-flex {
+        display: block;
+    }
+}

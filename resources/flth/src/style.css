@@ -1,0 +1,76 @@
+:root {
+    --color-body-background: #2b323d;
+    --color-text: #ffffff;
+    --color-text-unimportant: #414954;
+    --color-text-link: #fedba9;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.6;
+
+    background-color: var(--color-body-background);
+    color: var(--color-text);
+
+    width: 90%;
+    margin: 0 auto 1.5em auto;
+}
+
+header span {
+    color: var(--color-text-unimportant);
+}
+
+main {
+    width: 75%;
+}
+
+.album {
+    display: flex;
+}
+
+.album img {
+    max-width: 300px;
+    max-height: 300px;
+    margin-right: 2em;
+}
+
+.album-description img {
+    margin-left: 0.33em;
+    margin-right: 0.25em;
+    margin-bottom: -0.06em;
+}
+
+.album-sample-dump {
+    font-size: 0.8rem;
+}
+
+.album-description a {
+    color: var(--color-text-link);
+    text-decoration: none;
+}
+
+.album-description a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1100px) {
+    body {
+        width: 92%;
+        font-size: 1rem;
+    }
+
+    header h1 {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    main {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .album {
+        display: block;
+    }
+}
