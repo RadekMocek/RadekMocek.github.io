@@ -39,6 +39,10 @@ main {
     margin: 0 0 0 4em;
 }
 
+main h3 {
+    margin-top: 1.66em;
+}
+
 main p {
     text-align: justify;
 }

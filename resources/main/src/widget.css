@@ -15,6 +15,8 @@
     background-color: var(--color-widget-background);
     max-width: 615.6px;
     padding: 1.2em;
+
+    margin-top: 1.66em;
 }
 
 .widget-flex {
