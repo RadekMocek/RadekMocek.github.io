@@ -59,6 +59,16 @@ li + li {
     margin-top: 0.25em;
 }
 
+/* Nested list shenanigans i */
+li li:first-of-type {
+    margin-top: 0.25em;
+}
+
+/* Nested list shenanigans ii */
+li li:last-of-type {
+    margin-bottom: 0.5em;
+}
+
 a {
     color: var(--color-text-link);
     text-decoration: none;
