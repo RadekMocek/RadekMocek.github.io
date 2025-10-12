@@ -5,7 +5,7 @@ The website is divided into a few sections. Only one section is visible at a tim
 Multipage UX is simulated via a URL parameter, e.g. `?section=pageA`, `?section=pageB`.
 */
 
-const nav = ["home", "games", "coding", "music", "irl"]; // section identifiers
+const nav = ["home", "games", "coding", "music", "irl", "czech"]; // section identifiers
 const radios = []; // navigation button references
 const sections = []; // section references
 
