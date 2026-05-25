@@ -20,6 +20,7 @@
 
 2022-03-12      DOOM Eternal
 2022-04-08      Yakuza 4 Remastered
+2022-05-21      SteamWorld Dig 2
 2022-09-09      Vomitoreum
 2022-09-21      Mafia
 2022-10-07      Assassin's Creed Syndicate
@@ -41,8 +42,13 @@
 2024-07-03      Half-Life 2
 2024-08-13      Half-Life 2: Episode One
 2024-08-16      Half-Life 2: Episode Two
+2024-11-12      SteamWorld Dig
 
 2025-05-19      Resident Evil Revelations
 2025-06-02      Judgment
 2025-06-18      Broforce
 2025-06-29      Monument Valley 2
+
+2026-01-12      SteamWorld Heist
+2026-02-04      Max Payne
+2026-02-15      Max Payne 2: The Fall of Max Payne
